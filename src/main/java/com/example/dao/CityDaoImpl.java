@@ -10,8 +10,6 @@ import com.example.vo.CityVo;
 
 @Repository("cityDao")
 public class CityDaoImpl implements CityDao {
-	@Autowired
-	private SqlSession sqlSession;
 	
 	@Override
 	public CityVo read(String name) {
